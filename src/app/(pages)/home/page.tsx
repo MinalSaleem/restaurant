@@ -1,11 +1,9 @@
 import Image from "next/image";
 import ClientCard from "@/components/(pages)/ClientCard";
 import MenuComp from "@/components/(pages)/MenuComp";
-// import HomeChef from "@/components/(pages)/HomeChef";
 import HomeComps from "@/components/(pages)/HomeComps";
 
 export default function Homepage() {
- 
   return (
     <div className=" text-white">
       <div className="relative w-full h-screen">
@@ -51,18 +49,11 @@ export default function Homepage() {
             </section>
           </div>
         </div>
-      </div> 
+      </div>
 
-          <HomeComps /> 
-
-
+      <HomeComps />
 
       <MenuComp />
-
-          {/* <HomeChef /> */}
-
-
-  
 
       <section className="bg-black py-2 lg:py-16 px-0">
         <div>

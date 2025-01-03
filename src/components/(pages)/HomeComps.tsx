@@ -85,11 +85,6 @@ export default function HomeComps() {
 
 
 
-
-
-
-
-
       
       <div className="flex justify-center">
         <div className="flex flex-col justify-center items-center text-center ml-0 mt-6 lg:mt-[120px] py-3">
@@ -143,9 +138,6 @@ export default function HomeComps() {
         </div>
       </div>
  
-
-
-
 
 
       <div className="flex lg:flex-row flex-col-reverse w-full lg:ml-0 ml-0 mt-[120px] lg:py-0">

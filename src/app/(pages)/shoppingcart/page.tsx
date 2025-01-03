@@ -60,7 +60,8 @@ const ShoppingCart: React.FC = () => {
       <Header title="Shopping Cart" route="Shopping Cart" />
 
       <main className="py-12 px-6 md:px-16 lg:px-28">
-        {/* Responsive Table */}
+    
+    
         <div className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
@@ -117,7 +118,7 @@ const ShoppingCart: React.FC = () => {
           </table>
         </div>
 
-        {/* Coupon and Total Section */}
+
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mt-10">
           <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
             <h2 className="text-sm md:text-lg font-semibold mb-2">

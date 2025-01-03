@@ -6,11 +6,9 @@ import ChooseCard from "@/components/(pages)/ChooseCard";
 import AboutMenu from "@/components/(pages)/AboutMenu";
 
 export default function Aboutus() {
-
-
   return (
     <div>
-             <Header title="About Us" route="About us" />
+      <Header title="About Us" route="About us" />
 
       <div className="text-white body-font">
         <div className="container mx-auto flex lg:flex-row flex-col px-5 py-24 ">
@@ -32,7 +30,7 @@ export default function Aboutus() {
               width={309}
               height={271}
             />
-           
+
             <Image
               className="object-cover object-center w-309px h-382px mt-882px ml-660px radius-6px"
               alt="image3"
@@ -69,23 +67,17 @@ export default function Aboutus() {
         </div>
       </div>
 
-    <ChooseCard />
+      <ChooseCard />
 
-
-      
-
-
-      <div  className="bg-white py-16 px-4">
-      <h2 className="text-center">Testimonials</h2>
+      <div className="bg-white py-16 px-4">
+        <h2 className="text-center">Testimonials</h2>
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-semibold text-gray-800 mb-12">
             What our clients are saying
           </h2>
-             <ClientCard />
+          <ClientCard />
         </div>
-             </div>
-
-
+      </div>
 
       <AboutMenu />
     </div>
